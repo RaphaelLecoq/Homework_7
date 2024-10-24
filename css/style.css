@@ -1,0 +1,70 @@
+* {
+    font-family: Calibri;
+}
+
+a {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: red;
+}
+
+input {
+    font-size: medium;
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: azure;
+    border-radius: 5px;
+}
+
+button {
+    font-size: large;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.background {
+    background-color: rgb(120, 204, 237);
+}
+
+td {
+    border: 1px solid black;
+}
+
+/* Add spacing between each country suggestion */
+.suggestion {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+/* Change suggestion color when hovering it with the mouse */
+.suggestion:hover {
+    background-color: #adf;
+    cursor: pointer;
+}
+
+/* Position the suggestion list just below the input box */
+#suggestions {
+    position: absolute;
+    border: 1px solid black;
+    left: 155px;
+}
+    
